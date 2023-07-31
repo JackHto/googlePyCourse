@@ -23,7 +23,7 @@ def remove_adjacent(nums):
 # pass of both lists.
 def linear_merge(list1, list2):
   newlist = list1 + list2
-  newlist.sort() # sorted
+  newlist.sort() 
   return newlist 
 
 # Note: the solution above is kind of cute, but unforunately list.pop(0)
